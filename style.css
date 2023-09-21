@@ -37,22 +37,40 @@ nav ul li{
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bottom{
     position: sticky;
-    height: 100px;
+    height: 150px;
     background-color: black;
     display: flex;
     justify-content: center;
+    color: white;
     align-items: center;
     flex-direction: column;
+    margin: 12px 0;
+}
+
+.icons{
+    margin-top: 14px;
+    display: flex;
 }
 
 .playback img{
     width: 30px;
-    color: white;
+    border: 2px solid white;
+    cursor: pointer;
 }
 
 #myProgressBar{
