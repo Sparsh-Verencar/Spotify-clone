@@ -5,17 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <nav>
         <ul>
-            <li class="brand-name"><img src="spotify_icon.png" alt="Spotify"></li>
+            <li class="brand"><img src="spotify_icon.png" alt="Spotify">Spotify</li>
             <li>Home</li>
             <li>About</li>
         </ul>
         
     </nav>
+
+    <div class="container">
+        <h1>Bleach ed 1 - Life Is Like A Boat</h1>
+        <div class="songlist"></div>
+        <div class="songrunner"></div>
+    </div>
+
+    <div class="bottom">
+        <input name="range" type="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome-icons -->
+        </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
